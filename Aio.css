@@ -21,7 +21,8 @@ body {
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 3px;
-    background-color: transparent z-index: 1;
+    background-color: transparent;
+    z-index: 1;
 }
 
 .left-line-out {
