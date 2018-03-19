@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+/* Navigation Bar - Start */
+
+.navbar {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.left-line-out {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    color: #ff9300;
+}
+
+.left-line-out:after {
+    content: '';
+    display: block;
+    margin-top: 2px;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.left-line-out:hover:after {
+    width: 100%;
+    background: #ff9300;
+}
+
+
+/* profile picture size to fit evenly */
+
+#Plexus_Video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+
+.nav-links {
+    float: left;
+    margin-right: 40px;
+    margin-top: 15px;
+    color: #ff9300;
+}
+
+.section-1 {
+    /* Intro section */
+    background-image: url(bw-building.jpg);
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -100;
+
+}
