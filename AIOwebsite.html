@@ -1,0 +1,108 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Omar Baig's Porfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="AIOwebsite.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section>
+        <nav class="navbar navbar-default always-open navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavigationBar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <a class="navbar-brand left-line-out" href="#" style="color:#000000">AIO</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right navbar-collapse collapse" id="NavigationBar">
+                    <li class="nav-links"><a href="#" class="left-line-out"><span></span> About</a></li>
+                    <li class="nav-links"><a href="#" class="left-line-out"><span></span> Works</a></li>
+                    <li class="nav-links"><a href="#" class="left-line-out"><span></span> Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Intro -->
+
+    <header class="main-image">
+        <div class="container intro-box text-center">
+            <div class="intro-line">
+                <div>Welcome To AIO</div>
+            </div>
+            <div class="intro-sub">
+                <div>Explore Possiblities</div>
+            </div>
+            <div class="intro-button" style="button"><a href="#"></a></div>
+        </div>
+    </header>
+
+
+
+    <!-- Services -->
+    <section>
+        <div class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading-text">Services</h2>
+                        <h4 class="section-sub-heading">Here are some of our services that we offer.</h4>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span><i class="fas fa-mobile-alt"></i></span>
+                        <h4>Responsive Web Design</h4>
+                        <p>Website will work on any device no matter which screen user is on.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span><i class="far fa-envelope"></i></span>
+                        <h4>Quality Service</h4>
+                        <p>We will assure you the best possible service because you da best.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span><i class="fas fa-lock"></i></span>
+                        <h4>Website Security</h4>
+                        <p>Prevent website from going down. 24/7 uptime with the best hosts avaiable.</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <script>
+        function myMap() {
+            var myCenter = new google.maps.LatLng(42.3526896, -83.1694164);
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {
+                center: myCenter,
+                zoom: 12
+            };
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({
+                position: myCenter
+            });
+            marker.setMap(map);
+        }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpxQ2rDpHx7GNOpkD3qvt_92HfLRVwgE0&callback=myMap"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js " integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ " crossorigin="anonymous "></script>
+    <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js "></script>
+</body>
+
+</html>
