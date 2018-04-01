@@ -125,6 +125,7 @@ header {
     padding: 1pc;
     margin: 1pc;
     border: 1px solid goldenrod;
+
 }
 
 .col-md-4 {}
@@ -169,6 +170,22 @@ header {
     font-size: 25px;
 }
 
+.about {
+    margin-top: 100px;
+}
+
+.about-words {
+    font-size: 18px;
+    color: gray;
+    width: 100%;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+.about-picture {
+    width: 100%;
+
+}
 
 @media (max-width:992px) {
     .col-md-4,
