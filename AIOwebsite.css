@@ -134,9 +134,10 @@ header {
 }
 
 .content-container-2:hover {
-    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, .2);
-    transition: ease .1s;
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+    transition: ease .4s;
 }
+
 
 .col-md-4 {}
 
@@ -207,14 +208,13 @@ header {
 
 .pricing-box {
     height: 510px;
-    background: gree2n;
 
 }
 
 .pricing-box-title {
-    font-size: 40px;
+    font-size: 35px;
     height: 100px;
-    border: 1px solid goldenrod;
+    border-top: 5px solid #d6a321;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -222,19 +222,24 @@ header {
 }
 
 .pricing-info {
-    border-right: 1px goldenrod solid;
-    border-left: 1px goldenrod solid;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 22px;
-    margin-top: 2px;
+    font-size: 18px;
     height: 100px;
 }
 
+.pricing-info:hover {}
+
 .buyNow {
     background: goldenrod;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
 }
 
 @media (max-width:992px) {
