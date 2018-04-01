@@ -112,6 +112,10 @@ header {
     color: gray;
 }
 
+.nav-link-color {
+    color: white;
+}
+
 .section-heading-text {
     font-weight: bold;
 }
