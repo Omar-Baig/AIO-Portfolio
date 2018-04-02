@@ -113,7 +113,15 @@ header {
 }
 
 .nav-link-color {
-    color: white;
+    color: grey;
+    font-style: bold;
+    font-size: 18px;
+    border-top: 2px solid goldenrod;
+    padding: 3px;
+}
+
+.nav-link-color:hover {
+    color: black;
 }
 
 .section-heading-text {
