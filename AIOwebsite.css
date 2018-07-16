@@ -33,9 +33,9 @@ a {
 }
 
 .navbar-collapse.collapse {
-    height: auto!important;
+    height: auto !important;
     padding-bottom: 0;
-    overflow: visible!important
+    overflow: visible !important
 }
 
 .navbar.always-open .navbar-collapse.collapse {
@@ -87,7 +87,6 @@ header {
     text-align: center;
     top: 50%;
     width: 100%;
-
 }
 
 .intro-line {
@@ -215,7 +214,6 @@ header {
 
 .about-picture {
     width: 100%;
-
 }
 
 .pricing-box {
